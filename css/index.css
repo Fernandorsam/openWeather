@@ -64,22 +64,33 @@ main #tempo-info{
     justify-content: space-evenly;
 }
 main #tempo-info h2{
-    font-size: 20px;
+    font-size: 1.2rem;
     font-family: sans-serif;
     font-weight: 400;
+    padding-bottom: 4px;
 }
 
-main #tempo-info #tempo-data{
+
+main #tempo-info .tempo-data, #tempo-info .desc-img{
     width: 35%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     flex-direction: column;
-    padding: 20px;
+   
+}
+#tempo-info .desc-img {
+    width: auto;
+}
+#tempo-info .desc-img img{
+    height: auto;
+    width: auto;
+    margin: 0 auto;
 }
 
-main #tempo-info span{
-    padding: 1px;
-    font-size: 50px;
+
+ main #tempo-info .tempo-data span{
+    padding-top: 8px;
+    font-size: 3.4rem;
     font-family: sans-serif;
     font-weight: 800;
 
